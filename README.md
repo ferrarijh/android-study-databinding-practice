@@ -4,9 +4,14 @@ However to use LiveData with data binding we should add one more line of code: `
 If ```lifecycleOwner``` is not registered on binding object the views will not properly update.
 
 What happens without ```lifecycleOwner```:
-
+<div>
+    <img src="https://github.com/ferrarijh/android-study-databinding-practice/blob/master/demo/demo1.gif">
+</div>
 
 After registering ```lifecycleOwner```:
+<div>
+    <img src="https://github.com/ferrarijh/android-study-databinding-practice/blob/master/demo/demo2.gif">
+</div>
 
 
 ## <i>Observable</i> vs <i>LiveData</i> in data binding?
