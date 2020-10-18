@@ -7,7 +7,9 @@ What happens without ```lifecycleOwner```:
 <div>
     <img src="https://github.com/ferrarijh/android-study-databinding-practice/blob/master/demo/demo1.gif">
 </div>
+LiveData is not properly updating the TextView.
 
+<br></br>
 After registering ```lifecycleOwner```:
 <div>
     <img src="https://github.com/ferrarijh/android-study-databinding-practice/blob/master/demo/demo2.gif">
